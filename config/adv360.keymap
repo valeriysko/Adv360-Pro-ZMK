@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
- &kp F1             &kp F2             &kp F3            &kp F4  &kp F5  &kp F6            &tog 1                                                                &mo 3                &kp F7                &kp F8           &kp F9         &kp F10          &kp F11  &kp F12
- &trans             &trans             &trans            &trans  &trans  &trans             &none                                                                &none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK   &trans
- &trans  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP        &kp C_MUTE  &trans  &trans             &none  &trans  &kp LEFT_GUI                  &kp RIGHT_ALT  &trans   &none                &trans                &trans           &trans          &trans           &trans   &trans
- &trans     &kp C_PREVIOUS         &kp C_NEXT  &kp C_PLAY_PAUSE  &trans  &trans                                  &trans                         &trans                                &trans                &trans           &trans          &trans           &trans   &trans
- &trans             &trans  &kp K_APPLICATION            &trans  &trans                    &trans  &trans        &trans                         &trans  &trans  &trans                                      &trans           &trans          &trans           &trans   &trans
+ &kp F12             &kp F1             &kp F2            &kp F3  &kp F4  &kp F5            &tog 1                                                                &mo 3                &kp F6                &kp F7           &kp F8          &kp F9          &kp F10  &kp F11
+  &trans             &trans             &trans            &trans  &trans  &trans             &none                                                                &none  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK   &trans
+  &trans  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP        &kp C_MUTE  &trans  &trans             &none  &trans  &kp LEFT_GUI                  &kp RIGHT_ALT  &trans   &none                &trans                &trans           &trans          &trans           &trans   &trans
+  &trans     &kp C_PREVIOUS         &kp C_NEXT  &kp C_PLAY_PAUSE  &trans  &trans                                  &trans                         &trans                                &trans                &trans           &trans          &trans           &trans   &trans
+  &trans             &trans  &kp K_APPLICATION            &trans  &trans                    &trans  &trans        &trans                         &trans  &trans  &trans                                      &trans           &trans          &trans           &trans   &trans
             >;
         };
 
